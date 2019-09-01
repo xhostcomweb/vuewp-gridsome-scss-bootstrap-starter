@@ -4,8 +4,8 @@
     <div class="masthead-content">
       <div class="container">
         <h1 class="masthead-heading mb-0">Avivo</h1>
-        <h2 class="masthead-subheading mb-0">Vue Wordpress Bootstrap 4 Theme</h2>
-        <a href="#" class="btn btn-primary btn-xl mt-5">Learn More</a>
+        <h2 class="masthead-subheading mb-0">Vue Wordpress Gridsome Bootstrap 4 Theme</h2>
+        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">Learn More</a>
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
@@ -42,7 +42,7 @@
         <div class="col-lg-6">
           <div class="p-5">
             <h2 class="display-4">We salute you!</h2>
-            <p>You've chosen this customizable Vue Wordpress API Gridsome Jamstack Bootstrap 4 theme to leave your mark on the world!</p>
+            <p>Because you've chosen this customizable Vue Wordpress API Gridsome Jamstack Bootstrap 4 theme to leave your mark on the world!</p>
           </div>
         </div>
       </div>

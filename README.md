@@ -1,10 +1,13 @@
 # Vue JS Wordpress starter for Gridsome SASS-SCSS enabled
 
+Avivo theme
 
 Sass/Scss version with Bootstrap 4 and bootstrap-vue
 
+https://bootstrap-vue.js.org/docs
+
 Enabled for sass/scss in gridsome.config.js file and chainwebpack
-Uses 1 css file.
+
 
 ## Install & Todo
 
@@ -12,7 +15,7 @@ Install Gridsome first, then clone repo and run yarn.
 Can swap out nav, header, footer for your own.
 Just change nav and page templates to yours, header and footer in components folder.
 4 pages made, Home, About, Blog/News and Contact
-See main.js for imports, put extra plugins in index.js.  DELETE index.html if not required but that currently pulls in Font Awesome 4.7 (usually for cdns/scripts/font awsome etc). Some extra assets in images and img folder, not used yet, and included original NPM and HtML files.
+Some extra assets in images and img folder, not used yet, and included original NPM and HtML files.
 
 
 

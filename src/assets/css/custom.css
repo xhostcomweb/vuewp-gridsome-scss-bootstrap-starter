@@ -69,6 +69,39 @@ p {
 .btn-outline-light {
   border-color: #cdd5dd !important;
   color: #cdd5dd !important; }
+.bg-primary {
+  background-color: #ee0979 !important;
+}
+
+.btn-primary {
+  background-color: #ee0979!important;
+  border-color: #ee0979!important;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #bd0760 !important;
+  border-color: #bd0760 !important;
+}
+
+.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+}
+
+.btn-secondary {
+  background-color: #ff6a00;
+  border-color: #ff6a00;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #cc5500 !important;
+  border-color: #cc5500 !important;
+}
+
+.btn-secondary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
+}
 
 /*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -130,7 +163,31 @@ html {
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: transparent; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+/*Buttons*/
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
 
+.bg-black {
+  background-color: #000 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
+}
 @-ms-viewport {
   width: device-width; }
 
@@ -6458,10 +6515,10 @@ section .section-title {
     border-left: 3px solid #eeeeee;
     padding-bottom: 6px;
     margin-bottom: 20px;
-    color:#ffffff;
+    color: #fff;
 }
 #footer a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none !important;
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
@@ -6480,9 +6537,11 @@ section .section-title {
 	font-size:30px;
 	margin-top:-10px;
 }
-#footer ul.social li a,
+#footer ul.social li a {
+color: #fff;
+}
 #footer ul.quick-links li a{
-	color:#ffffff;
+	color:#fff;
 }
 #footer ul.social li a:hover{
 	color:#eeeeee;
