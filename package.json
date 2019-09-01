@@ -1,0 +1,22 @@
+{
+  "name": "vuewp-gridsome-scss-bootstrap-starter",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-wordpress": "^0.3.0",
+    "bootstrap-vue": "2.0.0-rc.28",
+    "css-loader": "3.2.0",
+    "gridsome": "^0.6.0",
+    "style-loader": "1.0.0",
+    "vue": "2.6.10"
+  },
+  "devDependencies": {
+    "node-sass": "4.12.0",
+    "sass-loader": "8.0.0",
+    "style-resources-loader": "1.2.1"
+  }
+}
