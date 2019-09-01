@@ -1,28 +1,37 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
   <div class="container">
-    <a class="navbar-brand" href="#">
+   <g-link class="navbar-brand" href="#">
           <img src="../assets/img/Logo.png" alt="Logo">
-        </a>
+        </g-link>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
+          <g-link class="nav-link" to="/">Home
                 <span class="sr-only">(current)</span>
-              </a>
+              </g-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+         <g-link class="nav-link" to="/about">About</g-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+         <g-link class="nav-link" to="/alerts">Alerts</g-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+         <g-link class="nav-link" to="/news">News</g-link>
         </li>
+        <li class="nav-item">
+        <g-link class="nav-link" to="/signup">Sign Up</g-link>
+        </li>
+        <li class="nav-item">
+           <g-link class="nav-link" to="/login">Log In</g-link>
+       </li>
+        <li class="nav-item">
+           <g-link class="nav-link" to="/contact">Contact</g-link>
+       </li>
       </ul>
 	  <form class="form-inline my-2 my-lg-0">
 					<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
