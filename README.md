@@ -1,6 +1,8 @@
 # Vue JS Wordpress starter for Gridsome SASS-SCSS enabled
 
-Avivo theme
+Avivo theme Demo: https://priceless-nobel-a7290d.netlify.com/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/832d4d3e-5b8c-4567-9d76-720e8323c4ef/deploy-status)](https://app.netlify.com/sites/priceless-nobel-a7290d/deploys)
 
 Sass/Scss version with Bootstrap 4 and bootstrap-vue
 
