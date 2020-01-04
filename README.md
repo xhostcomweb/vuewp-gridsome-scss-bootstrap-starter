@@ -17,7 +17,7 @@ Install Gridsome first, then clone repo and run yarn.
 Can swap out nav, header, footer for your own.
 Just change nav and page templates to yours, header and footer in components folder.
 4 pages made, Home, About, Blog/News and Contact
-Some extra assets in images and img folder, not used yet, and included original NPM and HtML files.
+Some extra assets in images and img folder, not used yet, and included original NPM and HTML theme files.
 
 
 
